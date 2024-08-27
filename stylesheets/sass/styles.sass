@@ -1,3 +1,4 @@
+$primary_color: rgb(108, 207, 246)
 
 *
     box-sizing: border-box
@@ -39,7 +40,7 @@ body
         margin: 0
         font-size: 28px
     nav#main_nav
-        background-color: green
+        background-color: $primary_color
         position: sticky
         top: 0
         justify-content: space-between
@@ -52,7 +53,7 @@ body
                 align-items: center
                 justify-content: space-between
                 height: 64px
-                background-color: green
+                background-color: $primary_color
                 padding: 8px 16px
                 font-size: 24px
                 flex-basis: 100%
@@ -88,7 +89,7 @@ body
                     flex-basis: 100%
                     height: auto
                 .link_container
-                    background-color: green
+                    background-color: $primary_color
                     text-align: center
                     display: flex
                     align-content: center
@@ -102,7 +103,7 @@ body
                         flex-basis: 25%
                         height: auto
                     a
-                        background-color: green
+                        background-color: $primary_color
                         font-size: 24px
                         &:hover
                             font-weight: 600
@@ -167,3 +168,9 @@ body
                 text-align: center
         #contact-address
             flex-basis: 100%
+    footer
+        background-color: $primary_color
+        p
+            text-align: center
+            padding: 16px 0
+            margin: 0
