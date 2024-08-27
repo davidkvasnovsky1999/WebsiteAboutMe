@@ -37,10 +37,10 @@ body
         background-color: green
         position: sticky
         top: 0
-        display: flex
         justify-content: space-between
         .container    
             display: flex
+            flex-wrap: wrap
             #container_for_links_visibility_toggle
                 display: flex
                 align-content: center
@@ -54,7 +54,7 @@ body
                 @media only screen and (min-width: 768px) 
                     display: flex
                     justify-content: space-between
-                    flex-basis: 50%
+                    flex-basis: 45%
                 #website_name
                     font-size: 36px
                     padding: 0
@@ -77,9 +77,10 @@ body
                     display: flex
                     height: 64px
                     justify-content: space-evenly
-                    flex-basis: 50%
+                    flex-basis: 55%
                 @media only screen and (max-width: 767px) 
                     display: none
+                    flex-basis: 100%
                     height: auto
                 .link_container
                     background-color: green
@@ -97,6 +98,7 @@ body
                         height: auto
                     a
                         background-color: green
+                        font-size: 24px
                         &:hover
                             font-weight: 600
             

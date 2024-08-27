@@ -53,12 +53,12 @@ body nav#main_nav {
   background-color: green;
   position: sticky;
   top: 0;
-  display: flex;
   justify-content: space-between;
 }
 
 body nav#main_nav .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 body nav#main_nav .container #container_for_links_visibility_toggle {
@@ -77,7 +77,7 @@ body nav#main_nav .container #container_for_links_visibility_toggle {
   body nav#main_nav .container #container_for_links_visibility_toggle {
     display: flex;
     justify-content: space-between;
-    flex-basis: 50%;
+    flex-basis: 45%;
   }
 }
 
@@ -115,13 +115,14 @@ body nav#main_nav .container #links_visibility_toggle {
     display: flex;
     height: 64px;
     justify-content: space-evenly;
-    flex-basis: 50%;
+    flex-basis: 55%;
   }
 }
 
 @media only screen and (max-width: 767px) {
   body nav#main_nav .container #links_container {
     display: none;
+    flex-basis: 100%;
     height: auto;
   }
 }
@@ -150,6 +151,7 @@ body nav#main_nav .container #links_container .link_container {
 
 body nav#main_nav .container #links_container .link_container a {
   background-color: green;
+  font-size: 24px;
 }
 
 body nav#main_nav .container #links_container .link_container a:hover {
