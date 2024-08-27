@@ -19,6 +19,11 @@
 p 
     font-size: 18px
     margin: 0
+
+.responsive_image
+    height: auto
+    max-width: 100%
+    width: 100%
 body
     position: relative
     h1#main_heading
@@ -109,6 +114,14 @@ body
         .flex_container
             div
                 padding: 16px
+
+    #about_me 
+        #intro_images
+            display: flex
+            justify-content: space-between
+            img
+                height: auto
+                width: 32%
     #services
         display: flex
         flex-wrap: wrap

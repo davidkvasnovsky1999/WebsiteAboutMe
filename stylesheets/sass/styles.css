@@ -25,6 +25,12 @@ p {
   margin: 0;
 }
 
+.responsive_image {
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+}
+
 body {
   position: relative;
 }
@@ -166,6 +172,16 @@ body nav#main_nav .container #links_container .link_container a:hover {
 
 body #about_me .flex_container div, body #skills .flex_container div, body #services .flex_container div, body #contact .flex_container div {
   padding: 16px;
+}
+
+body #about_me #intro_images {
+  display: flex;
+  justify-content: space-between;
+}
+
+body #about_me #intro_images img {
+  height: auto;
+  width: 32%;
 }
 
 body #services {
