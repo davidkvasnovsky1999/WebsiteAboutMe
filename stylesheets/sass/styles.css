@@ -215,7 +215,7 @@ body #services .service_container p {
 
 @media only screen and (min-width: 1367px) {
   body #services .service_container {
-    flex: 0 0 24%;
+    flex: 0 0 32%;
   }
 }
 
