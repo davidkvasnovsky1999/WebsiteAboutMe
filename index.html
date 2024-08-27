@@ -8,31 +8,32 @@
 <!--    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.css">-->
     <link rel="stylesheet" href="stylesheets/sass/styles.css">
     <script src="https://kit.fontawesome.com/201ef3c919.js" crossorigin="anonymous"></script>
-
+    <script src="scripts/javascripts.js"></script>
     <!--    <script src="bootstrap-5.3.3-dist/js/bootstrap.js"></script>-->
   </head>
   <body>
-    <h1 id="webiste_name">David Kvašnovský</h1>
+<!--    <h1 id="main_heading">David Kvašnovský</h1>-->
     <nav id="main_nav">
       <div class="container">
         <div id="container_for_links_visibility_toggle">
+          <h1 id="website_name">David Kvašnovský</h1>
           <label for="links_visibility_toggle">
-            Navigační menu
+            <i class="fa-solid fa-bars"></i>
           </label>
         </div>
         <input type="checkbox" id="links_visibility_toggle">
         <div id="links_container">
           <div class="link_container">
-            <a href="#webiste_name">O mně</a>
+            <a href="#about_me" onclick="hideNavigationMenu()">O mně</a>
           </div>
           <div class="link_container">
-            <a href="#skills">Dovednosti</a>
+            <a href="#skills" onclick="hideNavigationMenu()">Dovednosti</a>
           </div>
           <div class="link_container">
-            <a href="#services">Služby</a>
+            <a href="#services" onclick="hideNavigationMenu()">Služby</a>
           </div>
           <div class="link_container">
-            <a href="#contact">Kontakt</a>
+            <a href="#contact" onclick="hideNavigationMenu()">Kontakt</a>
           </div>
         </div>
       </div>
@@ -44,14 +45,13 @@
           <div>
             <p>
               Vážení,
-              já se jmenuji <strong>David Kvašnovský</strong>, narodil jsem se <strong>11.4.1999 v Českých Budějovicích</strong>a sourozence nemám.
+              já se jmenuji <strong>David Kvašnovský</strong>, narodil jsem se <strong>11.4.1999 v Českých Budějovicích</strong> a sourozence nemám.
               Chodil jsem do základní školy <strong>Matice školské</strong> do roku <strong>2014</strong>.
               Do <strong>6.</strong> třídy jsem měl <strong>samé jedničky</strong>, pak už jsem měl i několik dvojek, ale horší známky ne.
               Dokonce jsem jednou dostal třídní dutku za recitaci vtipné básničky se sexuální tématikou od Miloše Knora s názvem <strong>Šeřík</strong> :D
             </p>
           </div>
           <div>
-
             <p>
               V letech
               <strong>2014 až 2018</strong> jsem studoval na Střední průmyslové škole v Písku obor IT, specializace programovaní a počítačové sítě a studim jsem zakončil maturitou.
@@ -167,37 +167,52 @@
       <div id="services">
         <h2>Služby, které nabízím</h2>
         <div class="service_container">
-          <p>Poradenství při výběru hardware a to jak samotných komponentů, tak hotových PC, notebooků, monitorů, klávesnic, myší, headsetů, reproduktorů a další...</p>
+          <i class="fa-solid fa-server"></i>
+          <p>Poradenství s výběrem hardware komponentů, PC, laptopů a PC příslušenství.</p>
         </div>
         <div class="service_container">
+          <i class="fa-solid fa-desktop"></i>
           <p>Návrh, sestavení, odlazení PC sestavy pro práci, multimédia, hraní a další.</p>
         </div>
         <div class="service_container">
+          <i class="fa-solid fa-memory"></i>
           <p>Výměnu jednotlivých komponentů v rámci upgradu či nefunčnosti komponentů.</p>
         </div>
         <div class="service_container">
-          <p>Přetaktování procesorů, operačních pamětí a grafických karet společně s několika hodinovým testem stability sytému, který dělám pomocí programů OCCT, Prime95, MSI Kombustor a AIDA64.</p>
+          <i class="fa-solid fa-microchip"></i>
+          <p>Přetaktování procesorů, operačních pamětí a grafických karet.</p>
         </div>
         <div class="service_container">
+          <i class="fa-solid fa-chart-line"></i>
+          <p>Test stability sytému, pomocí programů OCCT, Prime95, MSI Kombustor a AIDA64</p>
+        </div>
+        <div class="service_container">
+          <i class="fa-solid fa-database"></i>
           <p>Vytvoření diskového pole RAID za účelem redundance či zálohování dat</p>
         </div>
         <div class="service_container">
-          <p>Instalace OS Windows 10/11, GNU-Linux (můžu nainstalovat oba na jeden PC), instalace ovladačů a software, o který máte zájem.</p>
+          <i class="fa-brands fa-windows"></i>
+          <p>Instalace OS Windows 10/11, GNU-Linux, instalace ovladačů a software.</p>
         </div>
         <div class="service_container">
+          <i class="fa-solid fa-hard-drive"></i>
           <p>Migrace OS či dat na jiný disk.</p>
         </div>
         <div class="service_container">
-          <p>Delid a přepastování Intel procesorů tekutým kovem, které mají mezi IHS (kovový kryt CPU) a samotným čipem teplovodivou pastu, IHS s procesorem slepuji silikonem.</p>
+          <i class="fa-solid fa-droplet"></i>
+          <p>Delid Intel procesorů 3., 4., 5., 6., 7., 8. generace, aplikace tekutého kovu a přilepení IHS silikonem.</p>
         </div>
         <div class="service_container">
+          <i class="fa-solid fa-syringe"></i>
           <p>Přepastování procesorů a grafických karet.</p>
         </div>
         <div class="service_container">
+          <i class="fa-solid fa-water"></i>
           <p>Vodní chlazení na míru (otevřený vodní okruh).</p>
         </div>
         <div class="service_container">
-          <p><i>Cenu za mé služby vám v případě vašeho zájmu o mé služby napíšu do emailu či SMS.</i></p>
+          <i class="fa-solid fa-money-bill-1"></i>
+          <p>Cenu za mé služby vám v případě vašeho zájmu o mé služby napíšu do emailu či SMS.</p>
         </div>
 
 
@@ -213,28 +228,33 @@
       </div>
       <div id="contact">
         <h2>Kontakt na mě</h2>
+        <div id="contact-address">
+          <h3>Adresa servisního střediska: </h3>
+          <p>Čechova 566/21, České Budějovice, 37001</p>
+        </div>
         <div>
+          <h3>Telefonní číslo: </h3>
           <p>
-            <strong>Telefonní číslo: </strong>
             +420 722 742 577
           </p>
+          <h3>E-mail: </h3>
           <p>
-            <strong>E-mail: </strong>
             david.kvasnovsky.1999@gmail.com
           </p>
         </div>
         <div>
+          <h3>Github: </h3>
           <p>
-            <strong>Github: </strong>
             <a href="https://github.com/kvasndav">https://github.com/kvasndav</a>
           </p>
+          <h3>Intagram: </h3>
           <p>
-            <strong>Intagram: </strong>
             david_kvasnovsky
           </p>
         </div>
       </div>
-    </div>
 
+    </div>
+    <iframe style="border:none" src="https://frame.mapy.cz/s/cudetasufa" width="100%" height="600"></iframe>
   </body>
 </html>
