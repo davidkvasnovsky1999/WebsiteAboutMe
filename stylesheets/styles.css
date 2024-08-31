@@ -1,0 +1,38 @@
+#sluzby h2 {
+  flex: 1 1 100%;
+  margin: 0 0 16px;
+}
+#sluzby .service_container {
+  height: 225px;
+  border: 1px solid black;
+  border-radius: 16px;
+  margin: 0 0 16px;
+  padding: 16px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+}
+#sluzby .service_container i {
+  display: block;
+  text-align: center;
+  font-size: 64px;
+}
+#sluzby .service_container p {
+  text-align: center;
+}
+
+body {
+  position: relative;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body #o_mne, body #sluzby, body #dovednosti, body #kontakt {
+  padding-top: 64px;
+}
+body .collapse.navbar-collapse {
+  position: relative;
+}
+
+/*# sourceMappingURL=styles.css.map */
