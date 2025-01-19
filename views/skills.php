@@ -54,18 +54,18 @@
                         <img src="./images/java_certificate.png" class="img-fluid" alt="">
                     </a>
                 </div>
-                <div class="col-4"
-                <a href="./images/spring_boot_for_beginners_certificate.png" data-fancybox="gallery" data-caption="Spring boot for beginners certificate">
-                    <img src="./images/spring_boot_for_beginners_certificate.png" class="img-fluid" alt="">
-                </a>
+                <div class="col-4">
+                    <a href="./images/spring_boot_for_beginners_certificate.png" data-fancybox="gallery" data-caption="Spring boot for beginners certificate">
+                        <img src="./images/spring_boot_for_beginners_certificate.png" class="img-fluid" alt="">
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
         <div class="col-12 col-md-6 mb-2">
             <h3>Tvorba statických webových stránek</h3>
             <p>
                 Dovedu od základu napsat statické webové stránky pomocí jazyků HTML5, CSS3, CSS preprocesorů Sass a Less, Boostrapu a JavaScriptu či TypeScriptu.
-                Moje první webová stránka, kterou jsem vytvořil je www.bsvitality.cz.
+                Moje první webová stránka, kterou jsem vytvořil je <a href="www.bsvitality.cz">www.bsvitality.cz</a>.
             </p>
             <p>
                 Mezi HTML tagy, které znám a používám: html, head, body, div, main, section, nav, header, footer, ul, ol, li,
@@ -76,7 +76,9 @@
                 display, position, text-align, top, bottom, left, right, flex, flex-wrap, justify-content, align-content, align-items, align-self ad.
                 Místo toho abych psal styly v CSS3 tak je píši v SASSu či LESSu, který se následně překládá do CSS.
             </p>
-            <img src="./images/bs_vitality_homepage.png" class="img-fluid" alt="">
+            <a href="./images/bs_vitality_homepage.png" data-fancybox="gallery" data-caption="BS Vitality">
+                <img src="./images/bs_vitality_homepage.png" class="img-fluid" alt="">
+            </a>
         </div>
         <div class="col-12 col-md-6">
             <h3>Microsoft Windows 7 a novější</h3>
@@ -89,8 +91,9 @@
                 Umím vytvořit nabídku PC sestavy a následně jí složit, přetaktovat CPU, GPU a RAM. V případě nefunkčního PC umím zjistit, které komponenty za to můžou a následně je vyměnit za funkční.
                 Umím otestovat počítač na stabilitu pomocí programů jako je Prime95, MSI Kombustor, Aida64, OCCT ad.
             </p>
-            <img src="./images/windows_system_stress_test.png" class="img-fluid mb-2" alt="">
-
+            <a href="./images/windows_system_stress_test.png" data-fancybox="gallery" data-caption="Windows OS system stability test">
+                <img src="./images/windows_system_stress_test.png" class="img-fluid" alt="">
+            </a>
             <h3>GNU/Linux</h3>
             <p>
                 Umím nainstalovat většinu distribucí i s vlastním diskovým rozvržením a to sice: Debian, Ubuntu, OpenSUSE, Manjaro, Nobara, Fedora, Deepin.

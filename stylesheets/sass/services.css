@@ -1,20 +1,3 @@
-body {
-  position: relative;
-}
-body a {
-  text-decoration: none;
-  color: inherit;
-}
-body a:hover {
-  font-weight: bold;
-}
-body #o_mne, body #sluzby, body #dovednosti, body #kontakt {
-  padding-top: 64px;
-}
-body .collapse.navbar-collapse {
-  position: relative;
-}
-
 #sluzby h2 {
   flex: 1 1 100%;
   margin: 0 0 16px;
@@ -36,4 +19,4 @@ body .collapse.navbar-collapse {
 }
 #sluzby .service_container p {
   text-align: center;
-}/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=services.css.map */

@@ -1,7 +1,11 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top " role="navigation">
-    <div class="container">
+    <div class="container d-block d-lg-flex">
             <div class="d-flex justify-content-between flex-grow-1">
-                <a class="navbar-brand" href="#">Počítačový technik David Kvašnovský</a>
+                <a class="navbar-brand" href="#">
+                    <span class="d-none d-md-inline">Počítačový technik</span>
+                    <span class="d-md-none">P.T.</span> 
+                    David Kvašnovský
+                </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -10,7 +14,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link" href="#o_mne">O mně</a>
+                            <a class="nav-link" href="#o_mne">O mňe</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#sluzby">Služby</a>

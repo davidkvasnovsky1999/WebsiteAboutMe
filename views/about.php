@@ -1,7 +1,7 @@
 <div class="container mt-4" id="o_mne">
     <div class="row">
         <div class="col-12 mb-4">
-            <h2 class="text-center mb-5">O mně</h2>
+            <h2 class="text-center mb-5">O mňe</h2>
         </div>
         <div class="col-12 col-md-6 mb-4">
             <p>
